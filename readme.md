@@ -1,0 +1,1 @@
+This is my portfolio website that I am developing using Hugo as my static website generator, which operates on GO with the development language mostly being MarkDown

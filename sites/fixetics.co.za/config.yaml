@@ -1,0 +1,72 @@
+baseURL: 'ridge.fixetics.co.za'
+languageCode: en-us
+title: Ridge Harrowsmith
+theme: hugo-PaperMod
+
+menu:
+  main:
+  - identifier: home
+    name: Home
+    url: /
+    weight: 10
+  - identifier: projects
+    name: Projects
+    url: /projects
+    weight: 20
+  - identifier: blog
+    name: Blog
+    url: /blog
+    weight: 30
+
+params:
+  showToc: true
+  TocOpen: false
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  hideMeta: false
+  env: production
+
+  profileMode:
+    enabled: true
+    title: "Ridge Harrowsmith"
+    subtitle: "Aspiring Developer </> Currently learning Python and deploying Linux servers for testing and personal use."
+    imageUrl: "home/download.png"
+    imageWidth: 220
+    imageHeight: 220
+
+  hideDescriptionInList: false
+
+  cover:
+    hiddenInList: false 
+    hiddenInSingle: false 
+
+  socialIcons:
+    - name: "github"
+      url: "https://github.com/iEdgir01"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/ridge-harrowsmith-03529a191/"
+    - name: "email"
+      url: "mailto:fgteiw@gmail.com"
+
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+
