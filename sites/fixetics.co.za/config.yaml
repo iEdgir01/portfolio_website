@@ -30,7 +30,7 @@ params:
     enabled: true
     title: "Ridge Harrowsmith"
     subtitle: "Aspiring Developer </> Currently learning Python and deploying Linux servers for testing and personal use."
-    imageUrl: "home/download.png"
+    imageUrl: "home/me.png"
     imageWidth: 220
     imageHeight: 220
 
